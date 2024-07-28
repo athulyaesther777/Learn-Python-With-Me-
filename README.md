@@ -6,3 +6,4 @@ Anayse each code and understand how that comes , in the second part the output i
 In part3 we are learning about the numbers and its just  a piece  of cake for you guys we talk about the maths used that we can use in python and note its a beginner level. Any way analyze each line and the output also given there.
 In the part 4 we talk about user interactions , You can add as per your convenience , also You can extend the conversation length.
 In the part 5 we learn to make a basic calculator, dont forget to add your own ideas into that.
+in the part 6 we are going to make mad libs games i.e we fill the missing places .
