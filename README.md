@@ -30,3 +30,9 @@ Tuples are immutable sequences used to store collections of heterogeneous data. 
 
 Part 10: Functions
 Functions are a fundamental concept in Python that allow you to encapsulate code into reusable blocks. This section demonstrates how to define and use functions in Python, including handling parameters and understanding the difference between function calls and variables.
+
+Part 11: Return Statement
+In Python, the return statement is used to send a result from a function back to the caller. It is an essential feature for making functions more versatile and reusable. This section explores how to use return to output values from functions and understand its impact on function execution.
+
+Part 10: Functions
+Functions are a fundamental concept in Python that allow you to encapsulate code into reusable blocks. This section demonstrates how to define and use functions in Python, including handling parameters and understanding the difference between function calls and variables.
