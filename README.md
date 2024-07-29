@@ -27,3 +27,6 @@ Explore various functions available for lists in Python. This section provides a
 
 Part 9: Tuples
 Tuples are immutable sequences used to store collections of heterogeneous data. This section will cover how to create tuples, access their elements, and work with tuples within lists.
+
+Part 10: Functions
+Functions are a fundamental concept in Python that allow you to encapsulate code into reusable blocks. This section demonstrates how to define and use functions in Python, including handling parameters and understanding the difference between function calls and variables.
