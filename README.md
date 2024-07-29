@@ -50,3 +50,6 @@ In Python, you can use comparison operators within if statements to evaluate con
 
 Part 13: Advanced Calculator
 This section demonstrates how to create an advanced calculator in Python that performs basic arithmetic operations based on user input. The calculator takes two numbers and an operator (+, -, *, /) from the user and performs the corresponding operation, displaying the result or an error message for invalid operators. This example highlights the use of if, elif, and else statements to control program flow based on user input.
+
+Part 14: Dictionary
+In Python, a dictionary is a collection of key-value pairs, where each key is unique. This section covers how to create and access elements in a dictionary, as well as handle missing keys gracefully using the get method. The example demonstrates initializing a dictionary with day abbreviations as keys and their full names as values, accessing values using keys, and handling missing keys to avoid errors.
