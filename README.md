@@ -63,4 +63,5 @@ In this section, we explore how to create a simple guessing game using Python. Y
 Part 17: For Loop
 In this section, we delve into the for loop, a powerful control structure in Python that allows you to iterate over a sequence (such as a list, string, or range) and execute a block of code for each item in the sequence. This section covers various examples of for loops, demonstrating how to loop through strings, lists, and ranges, and how to incorporate conditional statements within the loop to perform different actions based on the iteration index or item.
 
-
+Part 18: For Loop with Custom Functions
+In this section, we explore how to use a for loop within a custom function to perform calculations. Specifically, we create a function that calculates the power of a base number raised to an exponent using a for loop. This example demonstrates the practical application of loops in creating reusable and efficient code for mathematical operations.
