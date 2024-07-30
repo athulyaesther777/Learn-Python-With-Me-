@@ -65,3 +65,7 @@ In this section, we delve into the for loop, a powerful control structure in Pyt
 
 Part 18: For Loop with Custom Functions
 In this section, we explore how to use a for loop within a custom function to perform calculations. Specifically, we create a function that calculates the power of a base number raised to an exponent using a for loop. This example demonstrates the practical application of loops in creating reusable and efficient code for mathematical operations.
+
+Part 19:
+Collecting Basic Information from the User
+In this section, we will create a simple program to collect basic information from the user through the use of input prompts and print statements. This program engages in a basic conversational exchange, asking for the user's name and responding accordingly.
