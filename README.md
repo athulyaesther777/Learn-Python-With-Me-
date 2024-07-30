@@ -69,3 +69,7 @@ In this section, we explore how to use a for loop within a custom function to pe
 Part 19:
 Collecting Basic Information from the User
 In this section, we will create a simple program to collect basic information from the user through the use of input prompts and print statements. This program engages in a basic conversational exchange, asking for the user's name and responding accordingly.
+
+Part 20: Creating a MadLib Game
+
+In this section, you will learn how to build a simple MadLib game that dynamically generates a story based on user inputs. By using the input() function, you collect information such as names, places, and relationships from the user. You then combine these inputs into a predefined story template to create a personalized narrative. This demonstrates basic string manipulation and interactive programming in Python.
