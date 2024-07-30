@@ -55,4 +55,11 @@ Part 14: Dictionary
 In Python, a dictionary is a collection of key-value pairs, where each key is unique. This section covers how to create and access elements in a dictionary, as well as handle missing keys gracefully using the get method. The example demonstrates initializing a dictionary with day abbreviations as keys and their full names as values, accessing values using keys, and handling missing keys to avoid errors.
 
 part 15
-The while loop in Python repeatedly executes a block of code as long as a specified condition is True. It’s useful for scenarios where the number of iterations is not known beforehand. Here are some examples demonstrating different usages of the while loop
+The while loop in Python repeatedly executes a block of code as long as a specified condition is True. It’s useful for scenarios where the number of iterations is not known beforehand. Here are some examples demonstrating different usages of the while loop.
+
+Part 16: Building a Basic Game
+In this section, we explore how to create a simple guessing game using Python. You'll learn to utilize while loops and conditional statements to build a game where the user must guess a predefined word within a limited number of attempts. This exercise demonstrates fundamental programming concepts such as loops, conditionals, and user input handling, providing a fun and interactive way to apply your Python knowledge.
+
+
+
+
