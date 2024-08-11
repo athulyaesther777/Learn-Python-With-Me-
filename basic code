@@ -1,0 +1,40 @@
+# Python Control FLow
+# We can say that its a sequential control flow
+a = 10
+b = 40
+c = a -b
+print("The value of c =",c)
+
+#dive into selection or decision control statement
+
+a = 5
+if a % 5 == 0:
+    print("the value of n can be divisible ")
+# Lets try that with another value
+b = int(input("Enter a number:"))
+if b % 2 == 0 :
+    print("b is a even number.")
+else :
+    print("b is a odd number.")
+"""
+so here we got 
+The value of c = -30
+the value of n can be divisible 
+Enter a number:9
+b is a odd number.
+We get such outputs
+"""
+
+p =int(input("Enter a number:"))
+q =int(input("Enter a number:"))
+r = int(input("Enter a number:"))
+if p < q:
+    if p < r:
+        print("value of p is small")
+    else:
+        print("value of r is small")
+elif q < r :
+    print("value of q is small")
+else:
+    print("r is big ")
+
