@@ -1,0 +1,29 @@
+# First version
+print("Welcome to Wondering Land of Rides ! ")
+# Prompt user for height and convert input to integer
+height_of_the_person = int(input("What is your height in centimeters?\n"))
+# Check if height is strictly greater than 150 cm
+if height_of_the_person > 150:
+    print("Okay, you can enter.")
+else:
+    print("Sorry, you didn't make up to the criteria.")
+
+# Second version
+print("Welcome to Wondering Land of Rides ! ")
+# Prompt user for height and convert input to integer
+height_of_the_person = int(input("What is your height in centimeters?\n"))
+# Check if height is 150 cm or greater
+if height_of_the_person >= 150:
+    print("Okay, you can enter.")
+else:
+    print("Sorry, you didn't make up to the criteria.")
+
+# Third version
+print("Welcome to Wondering Land of Rides ! ")
+# Prompt user for height and convert input to integer
+height_of_the_person = int(input("What is your height in centimeters?\n"))
+# Check if height is exactly 150 cm
+if height_of_the_person == 150:
+    print("Okay, you can enter.")
+else:
+    print("Sorry, you didn't make up to the criteria.")
