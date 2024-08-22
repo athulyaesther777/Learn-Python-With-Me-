@@ -1,0 +1,108 @@
+# Initialize the list
+fruits = ["Jackfruit", "Berry", "Cherry"]
+backup_fruits = fruits.copy()  # Create a backup of the list
+print(fruits)  # Output: ['Jackfruit', 'Berry', 'Cherry']
+
+# Access elements
+print(fruits[1])  # Output: Berry
+print(fruits[-3]) # Output: Jackfruit
+
+# Update an element
+fruits[0] = "Jack Fruit"
+print(fruits)  # Output: ['Jack Fruit', 'Berry', 'Cherry']
+
+# Append an element
+fruits.append("Mango")
+print(fruits)  # Output: ['Jack Fruit', 'Berry', 'Cherry', 'Mango']
+
+# Extend the list with multiple elements
+fruits.extend(["Apple", "Orange", "Guva", "Apple"])
+print(fruits)  # Output: ['Jack Fruit', 'Berry', 'Cherry', 'Mango', 'Apple', 'Orange', 'Guva', 'Apple']
+
+# Count occurrences of an element
+print(fruits.count("Apple"))  # Output: 2
+
+# Remove the first occurrence of an element
+fruits.remove("Apple")
+print(fruits)  # Output: ['Jack Fruit', 'Berry', 'Cherry', 'Mango', 'Orange', 'Guva', 'Apple']
+
+# Append an element again
+fruits.append("Apple")
+print(fruits)  # Output: ['Jack Fruit', 'Berry', 'Cherry', 'Mango', 'Orange', 'Guva', 'Apple', 'Apple']
+
+# Pop an element (last element by default)
+fruits.pop(-1)
+print(fruits)  # Output: ['Jack Fruit', 'Berry', 'Cherry', 'Mango', 'Orange', 'Guva', 'Apple']
+
+# Insert an element at a specific position
+fruits.insert(4, "Banana")
+# Inserting at index 4 places "Banana" before "Orange"
+print(fruits)  # Output: ['Jack Fruit', 'Berry', 'Cherry', 'Mango', 'Banana', 'Orange', 'Guva', 'Apple']
+
+# Find the index of an element
+print(fruits.index("Apple"))  # Output: 7
+
+# Sort the list
+fruits.sort()
+print(fruits)  # Output: ['Apple', 'Banana', 'Berry', 'Cherry', 'Guva', 'Mango', 'Orange', 'Jack Fruit']
+
+# Reverse the list
+fruits.reverse()
+print(fruits)  # Output: ['Jack Fruit', 'Orange', 'Mango', 'Guva', 'Cherry', 'Berry', 'Banana', 'Apple']
+
+# Get the length of the list
+print(len(fruits))  # Output: 8
+
+# Delete an element at a specific index
+del fruits[3]
+print(fruits)  # Output: ['Jack Fruit', 'Orange', 'Mango', 'Guva', 'Berry', 'Banana', 'Apple']
+
+# Enumerate over the list
+for index, value in enumerate(fruits):
+    print(index, value)
+# Output:
+# 0 Jack Fruit
+# 1 Orange
+# 2 Mango
+# 3 Guva
+# 4 Berry
+# 5 Banana
+# 6 Apple
+
+# Clear the list
+fruits.clear()
+print(fruits)  # Output: []
+
+# Print backup list
+print(backup_fruits)  # Output: ['Jackfruit', 'Berry', 'Cherry']
+
+# Numeric list operations
+numbers = [1, 4, 3]
+print(numbers)  # Output: [1, 4, 3]
+print(min(numbers))  # Output: 1
+print(max(numbers))  # Output: 4
+print(sum(numbers))  # Output: 8
+
+# Boolean list operations
+t_or_f = [False, True, False]
+print(any(t_or_f))  # Output: True
+print(all(t_or_f))  # Output: False
+
+# Reverse using reversed() function
+fruits = ['Apple', 'Banana', 'Cherry']
+reversed_fruits = list(reversed(fruits))  # Convert iterator back to list
+print(reversed_fruits)  # Output: ['Cherry', 'Banana', 'Apple']
+print(fruits)  # Output: ['Apple', 'Banana', 'Cherry']
+
+# Reverse using reverse() method
+fruits.reverse()
+print(fruits)  # Output: ['Cherry', 'Banana', 'Apple']
+
+# Iterator example
+fruits = ["Apple", "Banana", "Cherry"]
+fruit_iterator = iter(fruits)  # Create an iterator object
+
+print(next(fruit_iterator))  # Output: Apple
+print(next(fruit_iterator))  # Output: Banana
+print(next(fruit_iterator))  # Output: Cherry
+# Calling next() again would raise StopIteration
