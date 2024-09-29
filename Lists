@@ -3,7 +3,7 @@ fruits = ["Jackfruit", "Berry", "Cherry"]
 backup_fruits = fruits.copy()  # Create a backup of the list
 print(fruits)  # Output: ['Jackfruit', 'Berry', 'Cherry']
 
-# Access elements
+# Access element
 print(fruits[1])  # Output: Berry
 print(fruits[-3]) # Output: Jackfruit
 
